@@ -1,0 +1,13 @@
+# prgm for to read and dispaly students details
+sno=int(input('enter sno:'))
+name=input('enter name:')
+gender=input('enter gender:' )
+group=input('enter group:')
+address=input('enter address:')
+phno=int(input('enter phno:'))
+print('sno:',sno)
+print('name:',name)
+print('gender:',gender)
+print('group:',group)
+print('address:',address)
+print('phone number:',phno)
