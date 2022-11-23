@@ -1,0 +1,8 @@
+# calculate EMI
+p=int(input())
+t=int(input())
+r=float(input())
+si=(p*t*r)/100
+emi=(p+si)/12*t
+print('simple interest ',si)
+print('EMI:',emi)
