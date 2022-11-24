@@ -1,0 +1,10 @@
+#Pgm for arithemtic operators
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+print('Addition of two numbers is',a+b)
+print('Subtraction of two numbers is',a-b)
+print('Multipication of two numbers is',a*b)
+print('Division of two numbers is', a/b)
+print('remainder is',a%b)
+print('Exponentiaton is',a**b)
+print('The floor division is',a//b)
