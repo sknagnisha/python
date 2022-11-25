@@ -1,0 +1,7 @@
+# sum of even
+list=[5,4,8,9,6,10]
+sum=0
+for i in list:
+    if i%2==0:
+        sum=sum+i
+    print("sum=",sum)
