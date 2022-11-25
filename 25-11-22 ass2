@@ -1,0 +1,7 @@
+# minimum value
+list=[6,5,7,9,8]
+min=list[0]
+for i in list:
+    if i<min:
+        min=i
+        print(min)
