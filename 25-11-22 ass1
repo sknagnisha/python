@@ -1,0 +1,8 @@
+# To find out the given number is available in the list or not
+list=[1,2,4,6,7,8,9]
+print('enter any number')
+n=int(input())
+if n in list:
+    print('The given element is available in list')
+else:
+    print('The given element is not available in list')
