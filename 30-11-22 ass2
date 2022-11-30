@@ -1,0 +1,58 @@
+**************Assignment:2*****************
+blackgram=250
+cphno=int(input('enter the cphno:'))
+name=input('enter the name:')
+address=input('enter the address:')
+riceq=int(input('how many rice packets you want!'))
+dryfruitsq=int(input('how many dryfruits packets you want!'))
+chipsq=int(input('how many chips packets you want!'))
+chocolatesq=int(input('how many chocolates packets you want!'))
+blackgramq=int(input('how many blackgram packets you want!'))
+coupon=input('enter coupon code in capital letters:')
+bill=(riceq*rice)+(dryfruits*dryfruitsq)+(chips*chipsq)+(chocolates*chocolatesq)+(blackgram*blackgramq)
+if bill>3000:
+    tax=bill*5/100
+elif bill>2000:
+    tax=bill*7/100
+elif bill>1000:
+    tax=bill*10/100
+elif  bill>500:
+    tax=bill*15/100
+else:
+    tax=100
+if coupon=='DIWALI'and bill>=5000:
+    dis=bill*10/100
+elif coupon=='DIWALI'and bill>=3000:
+    dis=bill*6/100
+elif coupon=='DIWALI'and bill>=1000:
+    dis=bill*5/100
+elif coupon=='CHRISMAS'and bill>=3000:
+    dis=bill*20/100
+elif coupon=='CHRISMAS'and bill>=2000:
+    dis=bill*10/100
+elif coupon=='CHRISMAS'and bill>=1000:
+    dis=bill*5/100
+else:
+    dis=0
+print('customer phone number:',cphno)
+print('customer name:',name)
+print('customer address:',address)
+print('tax:',tax)
+bill=tax+bill-dis
+print('bill:',bill)
+
+**output:
+enter the cphno:123456
+enter the name:Maneesha
+enter the address:kkd
+how many rice packets you want!2
+how many dryfruits packets you want!4
+how many chips packets you want!1
+how many chocolates packets you want!2
+how many blackgram packets you want!3
+enter coupon code in capital letters:CHRISMAS
+customer phone number: 123456
+customer name: Maneesha
+customer address: kkd
+tax: 292.5
+bill: 4972.5
