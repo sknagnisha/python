@@ -1,0 +1,9 @@
+# biggest of two numbers using functions
+def bignum():
+    if a>b:
+        print('a is big')
+    else:
+        print('b is big')
+a=int(input('enter a:'))
+b=int(input('enter b:'))
+bignum()
