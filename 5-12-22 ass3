@@ -1,0 +1,15 @@
+#difference of largest and smallest number
+n=int(input())
+i=1
+num=int(input('Enter number'))
+large=num
+small=num
+while(i<n):
+    num=int(input('Enter num'))
+    if num>large:
+        large=num
+    if num<small:
+        small=num
+    i=i+1    
+diff=large-small
+print(diff)
