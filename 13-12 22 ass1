@@ -1,0 +1,16 @@
+#prgm to insert n number of districts to the particular state and display in alphabetical order
+
+n=int(input('enter n number of districts:'))
+ap=[]
+for i in range(n):
+      x=input()
+      ap.append(x)
+ap.sort()
+print(ap)      
+      ********output*****
+enter no of districts:4
+kakinada
+srikakulum
+vskp
+amalapuram
+['amalapuram', 'kakinada', 'srikakulum', 'vskp']
