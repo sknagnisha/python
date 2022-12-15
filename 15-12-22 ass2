@@ -1,0 +1,13 @@
+#assignment2
+n= int(input())
+sl=list(map(int,input().split()))
+el=[]
+ol=[]
+for i in range(0,n):
+    if sl[i]%2==0:
+        el.append(sl[i])
+    else:
+        ol.append(sl[i])
+l=el+ol
+for i in range(n):
+    print(l[i],end=' ')
