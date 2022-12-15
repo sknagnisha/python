@@ -1,0 +1,14 @@
+#assignment3
+n=int(input())
+sl=list(map(int,input().split()))
+p=int(input())
+check=0
+for i in range(0,n):
+    for j in range(i+1,n):
+        if sl[i]-sl[j]==p:
+            check=1
+            break
+if check==1:
+    print('Yes')
+else:
+    print('No')
