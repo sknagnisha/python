@@ -1,0 +1,19 @@
+#assignment1
+n=int(input())
+tl=list(map(int,input().split()))
+pl=[]
+nl=[]
+for i in range(0,n):
+    if tl[i]>=0:
+        pl.append(tl[i])
+    else:
+        nl.append(tl[i])
+l=pl+nl
+for i in range(n):
+    print(l[i],end=' ')
+    
+    
+*******OUTPUT*******
+    6
+-1 2 3 8 9 -7
+2 3 8 9 -1 -7 
