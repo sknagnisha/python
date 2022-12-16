@@ -1,0 +1,12 @@
+#assignment3
+
+str=input('enter the string:')
+count=0
+n=len(str)
+for i in range(0,n):
+    if str[i].isdigit()==1:
+        print(str[i],'is a digit')
+        count=count+1
+    else:
+        print(str[i],'is not a digit')
+print('The digit count is:',count)
