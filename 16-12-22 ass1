@@ -1,0 +1,10 @@
+#assignment1
+str=input('enter the string:')
+length=len(str)
+upperstring=(str.upper())
+lowerstring=(str.lower())
+swapstring=(str.swapcase())
+print('length:',length)
+print('upperstring:',upperstring)
+print('lowerstring:',lowerstring)
+print('swapstring:',swapstring)
