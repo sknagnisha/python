@@ -1,0 +1,12 @@
+#assignment2
+str=input('enter the string:')
+count=0
+n=len(str)
+for i in range(0,n):
+    if str[i].isalpha()==1:
+        print(str[i],'is an alphabet')
+        count=count+1
+    else:
+        print(str[i],'is not an alphabet')
+print('The alphabet count is:',count)
+
