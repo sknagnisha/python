@@ -1,0 +1,15 @@
+#write a program to print given year is leap year or not?
+
+n=int(input("Enter year:"))
+if((n%400==0&n%100!=0)or n%4==0):
+    print(n,"It is a leap year")
+else:
+    print(n,"Not a leap year")
+
+*********OUTPUT-1*********
+Enter year:2003
+2003 Not a leap year
+
+*********OUTPUT-2*********
+Enter year:2016
+2016 It is a leap year
