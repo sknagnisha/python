@@ -1,0 +1,21 @@
+# Write a program to print given number is perfect or not?
+
+n=int(input())
+i=1
+s=0
+while(i<n):
+    if(n%i==0):
+        s=s+i
+    i=i+1
+if(s==n):
+      print("Perfect number")
+else:
+      print("Not a perfect number")
+
+******OUTPUT-1**********
+6
+Perfect number
+
+*******OUTPUT-2*********
+7
+Not a perfect number
