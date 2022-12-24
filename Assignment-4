@@ -1,0 +1,26 @@
+# Write a program to find maximum and minimum from the given digit?
+
+n=int(input())
+i=1
+num=int(input("Enter number:"))
+maximum=num
+minimum=num
+while(i<n):
+    num=int(input("Enter number:"))
+    if num>maximum:
+        maximum=num
+    if num<minimum:
+        minimum=num
+    i=i+1    
+print(maximum,":Maximum number")
+print(minimum,":Minimum number")
+
+*******OUTPUT********
+5
+Enter number:6
+Enter number:7
+Enter number:9
+Enter number:32
+Enter number:1
+32 :Maximum number
+1 :Minimum number
