@@ -1,0 +1,14 @@
+# Write a program to print difference between maximum and minimum?
+
+n=int(input('Enter number:'))
+l=list(map(int,input().split()))
+print('maximun number:',max(l))
+print('minimum number:',min(l))
+print('Differnce is:',max(l)-min(l))
+
+*****OUTPUT*********
+Enter number:4
+2 32 9 8
+maximun number: 32
+minimum number: 2
+Differnce is: 30
