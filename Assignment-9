@@ -1,0 +1,19 @@
+# Write a program to print sum of n febnocci series?
+
+n=int(input('Enter number:'))
+a=0
+b=1
+c=0
+s=0
+while(c<n):
+    c=a+b
+    s=s+c
+    a=b
+    b=c
+print(c)    
+
+*******OUTPUT********
+Enter number:6
+8
+
+
