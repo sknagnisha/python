@@ -1,0 +1,20 @@
+# Write a program to print leap years upto given range?
+
+def leap(y):
+    if((y%400==0&y%100!=0) or y%4==0):
+        return 1
+    else:
+        return 0
+
+n1=int(input("Enter starting year:"))
+n2=int(input("Enter ending year:"))
+while(n1<n2):
+    if(leap(n1)==1):
+        print(n1,end=' ')
+    n1=n1+1
+
+
+**********OUTPUT**********
+Enter starting year:2000
+Enter ending year:2022
+2000 2004 2008 2012 2016 2020 
