@@ -1,0 +1,11 @@
+# Write a program to arrange elements in sequential order?
+
+n=int(input("Enter number:"))
+l=list(map(int,input().split()))
+l.sort()
+print(l)
+
+*****OUTPUT******
+Enter number:4
+32 25 16 28
+[16, 25, 28, 32]
