@@ -1,0 +1,13 @@
+# Write a program to print reverse of the given list?
+
+n=int(input('Enter number:'))
+l=list(map(int,input().split()))
+m=[]
+for i in range(n-1,-1,-1):
+    m.append(l[i])
+print(m)    
+
+*******OUTPUT*********
+Enter number:6
+1 17 18 32 9 8
+[8, 9, 32, 18, 17, 1]
