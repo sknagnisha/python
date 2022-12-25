@@ -1,0 +1,15 @@
+# Write a program to print square root of the given number?
+
+n=int(input('Enter number:'))
+a=n*n
+if(a>10):
+    print("Hello")
+else:
+    print("Hi")
+  
+ *******OUTPUT-1*******   
+Enter number:6
+Hello
+********OUTPUT-2*********
+Enter number:2
+Hi
