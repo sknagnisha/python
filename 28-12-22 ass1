@@ -1,0 +1,33 @@
+#Tkinter program
+from tkinter import*
+def addnumbers():
+    res=int(e1.get())+int(e2.get())
+    s.set(res)
+def subnumbers():
+    res=int(e1.get())+int(e2.get())
+    s.set(res)
+def mulnumbers():
+    res=int(e1.get())+int(e2.get())
+    s.set(res)
+def divnumbers():
+    res=int(e1.get())+int(e2.get())
+    s.set(res)
+cal=Tk()
+s=StringVar()
+Label(cal,text="First Number").grid(row=0)
+Label(cal,text="Second Number").grid(row=1)
+Label(cal,text="Result:").grid(row=3)
+result=Label(cal,text="",textvariable=s).grid(row=3,column=1)
+e1=Entry(cal)
+e2=Entry(cal)
+e1.grid(row=0,column=1)
+e2.grid(row=1,column=1)
+b=Button(cal,text="Addition",command=addnumbers)
+c=Button(cal,text="Substraction",command=subnumbers)
+d=Button(cal,text="Multiplication",command=mulnumbers)
+e=Button(cal,text="Division",command=divnumbers)
+b.grid(row=4,column=0)
+c.grid(row=4,column=1)
+d.grid(row=5,column=0)
+e.grid(row=5,column=1)
+mainloop()
