@@ -1,0 +1,8 @@
+#Write a prgm to print odd numbers with using comprehensiation
+n=int(input())
+l=[i for i in range(0,n-1)if i%2!=0]
+print(l)
+
+*******OUTPUT******
+30
+[1, 3, 5, 7, 9, 11, 13, 15, 17, 19, 21, 23, 25, 27]
