@@ -1,0 +1,19 @@
+# prgm difference of left and right diagonal
+n=int(input())
+A=[]
+s1=0
+s2=0
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input())
+        l.append(x)
+    A.append(l)
+for i in range(n):
+    for i in range(0,n):
+        if i==j:
+            s1=s1+A[i][j]
+            for j in range(n):
+                if i+j==n-1:
+                    s2=s2+A[i][j]
+print(s1-s2)
