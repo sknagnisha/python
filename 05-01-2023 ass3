@@ -1,0 +1,21 @@
+assignment-3:
+write a program to calculate the last k maximum and minimum
+difference from the given list
+
+
+n=int(input('Enter number:'))
+l=list(map(int,input().split()))
+s=int(input('Enter s:'))
+l.sort()
+m=l[-s:]
+print('Maximun number:',max(l))
+print('Minuimum number:',min(l))
+print('DIfference:',max(m)-min(m))
+
+***OUTPUT***
+Enter number:6
+1 21 32 10 8 6
+Enter s:3
+Maximun number: 32
+Minuimum number: 1
+DIfference: 22
