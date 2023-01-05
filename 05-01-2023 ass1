@@ -1,0 +1,37 @@
+#assignment-1:
+write a program to print k values in secondary digonal of the given 
+n*n matrix and replace the other values with 0#
+
+n=int(input('Enter num:'))
+m=[]
+for i in range(0,n):
+    l=[]
+    for j in range(0,n):
+        x=int(input('Enter elements:'))
+        l.append(x)
+    m.append(l)
+s=int(input('Enter number:'))
+for i in range(0,n):
+    for j in range(0,n):
+        if i+j==n-1:
+            m[i][j]=s
+        else:
+            m[i][j]=0
+for i in m:
+    print(i)
+
+*******OUTPUT******
+Enter num:3
+Enter elements:1
+Enter elements:2
+Enter elements:3
+Enter elements:4
+Enter elements:5
+Enter elements:6
+Enter elements:7
+Enter elements:8
+Enter elements:9
+Enter number:3
+[0, 0, 3]
+[0, 3, 0]
+[3, 0, 0]
