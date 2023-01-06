@@ -1,0 +1,20 @@
+#assignment1:
+write a program to remove duplicates from the group of elements#\
+
+n=int(input('Enter number:'))
+l=list(map(int,input().split()))
+u=[]
+d=[]
+for i in l:
+    if i not in u:
+        u.append(i)
+    else:
+        d.append(i)
+for i in u:
+    print(i,end=' ')
+    
+    ****OUTPUT*******
+    Enter number:5
+1 2 3 4 4
+1 2 3 4 
+
