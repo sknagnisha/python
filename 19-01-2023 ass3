@@ -1,0 +1,22 @@
+#assignment-3:
+write a program to print the following freequency
+input:
+        aditya
+        2
+    output:
+        aaddiittyyaa
+        
+s=input('Enter string:')
+m=int(input('Enter number:'))
+res=''
+n=len(s)
+for i in range(0,n):
+    for j in range(0,m):
+        res=res+s[i]
+print(res)
+
+
+****OUTPUT*******
+Enter string:aditya
+Enter number:3
+aaadddiiitttyyyaaa
