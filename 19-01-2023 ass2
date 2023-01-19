@@ -1,0 +1,16 @@
+#assignment2:
+ prgm to print the following series using with the given string
+
+s=input()
+n=len(s)
+for i in range(n,-1,-1):
+    print(s[0:i])
+
+***OUTPUT*****
+aditya
+aditya
+adity
+adit
+adi
+ad
+a
