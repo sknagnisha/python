@@ -1,0 +1,21 @@
+*****************Assignment 2******************
+ind={}
+n=int(input("Enter no of students:"))
+for i in range(1,n+1):
+    l=[]
+    sno=int(input('Enter student number number:'))
+    sname=input('Enter student name')
+    group=input('Enter group')
+    branch=input('enter branch')
+    pno=int(input('enter pno'))
+    l.append(sname)
+    l.append(group)
+    l.append(branch)
+    l.append(pno)
+    ind[sno]=l
+pno=int(input('Enter player number for details'))
+print('student name:',ind.get(sno)[0])
+print('group:',ind.get(sno)[1])
+print('branch:',ind.get(sno)[2])
+print('pno:',ind.get(sno)[3])
+
