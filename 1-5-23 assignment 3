@@ -1,0 +1,12 @@
+*****************Assignment 3******************
+#Biggest of three numbers
+
+a=int(input())
+b=int(input())
+c=int(input())
+if a>b and a>c:
+    print(a)
+if b>a and b>c:
+    print(b)
+else:
+    print(c)
