@@ -1,0 +1,14 @@
+****************************ASSIGNMENT-3********************************
+# Write a prgm to print max and min numbers from the list
+
+n=int(input('Enter the value:'))
+l=list(map(int,input().split()))
+print("The maxmimum is:",max(l))
+print("The minimum is:",min(l))
+
+
+***************OUTPUT*************
+Enter the value:5
+1 5 7 9 15
+The maxmimum is: 15
+The minimum is: 1
