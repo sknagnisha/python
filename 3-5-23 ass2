@@ -1,6 +1,6 @@
-***************ASSIGNMENT-1******************
-# prgm for most repeated character and frequence 
-from the given input
+***************ASSIGNMENT-2******************
+# prgm for most repeated character and the
+frequence from the given input
 
 par=input('Enter:')
 d={}
