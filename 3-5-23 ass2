@@ -1,0 +1,20 @@
+***************ASSIGNMENT-1******************
+# prgm for most repeated character and frequence 
+from the given input
+
+par=input('Enter:')
+d={}
+for i in par:
+    if i not in d:
+        d[i]=1
+    else:
+        d[i]=d[i]+1
+m=list(d.values())
+r=max(m)
+for i in d:
+    if d[i]==r:
+        print(i,r)
+********* OUTPUT:************
+
+Enter:sathvika nagnisha maneesha
+a 6
