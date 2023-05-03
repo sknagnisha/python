@@ -1,0 +1,34 @@
+**************ASSIGNMENT-1**************
+#Prgm for students result dictionary
+
+
+try:
+    d={}
+    n=int(input())
+    for i in range(1,n+1):
+        name,res=input().split()
+        d[name]=res
+    for i in range(1,n+1):
+        name=input()
+        if name in d:
+            print(name,d[name],'the exam')
+        else:
+            print('No result found')
+except:
+    print()
+
+OUTPUT:
+
+4
+ramu pass
+devi fail
+rani fail
+radha pass
+ramu
+ramu pass the exam
+devi
+devi fail the exam
+sita
+No result found
+radha
+radha pass the exam
