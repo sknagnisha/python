@@ -1,0 +1,29 @@
+******************ASSIGNMENT-3*****************
+#Prgm to print n febnocci series using class
+
+class Fibonacci:
+    def  fib(self,n,a,b):
+        for i in range(1,n+1):
+            c=a+b
+            print(c)
+            a=b
+            b=c
+        return True
+n=int(input('Enter number:'))
+a=int(input('Enter a:'))
+b=int(input('Enter b:'))
+f=Fibonacci()
+f.fib(n,a,b)
+
+OUTPUT:
+
+Enter number:7
+Enter a:0
+Enter b:1
+1
+2
+3
+5
+8
+13
+21
