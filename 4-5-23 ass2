@@ -1,0 +1,27 @@
+******************ASSIGNMENT-2*****************
+#Program to print given number is palindrome
+ or not using class
+
+class Palindrome:
+    def  pal(self,p):
+        s=0
+        t=p
+        while(p!=0):
+            r=p%10
+            s=(s*10)+r
+            p=p//10
+        if (s==t):
+            return True
+        else:
+            return False
+p=int(input('Enter number:'))
+pa=Palindrome()
+if pa.pal(p):
+    print(p,'is a palindrome number')
+else:
+    print(p,'is not a  palindrome number') 
+    
+OUTPUT:
+
+Enter number:1247421
+1247421 is a palindrome number
