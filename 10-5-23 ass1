@@ -1,0 +1,12 @@
+**************ASSIGNMENT-1**************
+#prgm to print sum of n numbers upto 
+given range
+start, end = map(int, input().split())
+sum = 0
+for i in range(start, end+1):
+    sum += i
+print(sum)
+
+output:
+2 5
+14
