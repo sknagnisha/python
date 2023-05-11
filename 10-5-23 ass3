@@ -1,0 +1,19 @@
+**************ASSIGNMENT-3**************
+#prgm to print given number is happy 
+number or not
+
+def is_happy_number(num):
+    seen = set()
+    while num != 1:
+        if num in seen:
+            return False
+        seen.add(num)
+        num = sum(int(digit)**2 for digit in str(num))
+    return True
+num = int(input())
+if is_happy_number(num):
+    print(num, "is a happy number")
+else:
+    print(num, "is not a happy number")
+    
+    
