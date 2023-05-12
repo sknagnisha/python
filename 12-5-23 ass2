@@ -1,4 +1,4 @@
-**************ASSIGNMENT-2**************(HACKERRANK)
+**************ASSIGNMENT-2**************(LEETCODE)
 #Given an array of integers nums, calculate the pivot index of this array.
 
 class Solution:
