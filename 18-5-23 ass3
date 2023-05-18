@@ -1,0 +1,21 @@
+**********ASSIGNMENT-3*************
+#ass3: write a program to print count of maximum subarray sum is greater than k
+
+def maxSubSum(a,k):
+    n=len(a)
+    ps=a[0]
+    c=0
+    i=0
+    while(i<n):
+       s=0
+       for j in range(i,n):
+           if s+a[j]<k:
+               c=c+1
+               s=s+a[j]
+           else:
+                break
+       i=i+1
+    return c
+a=list(map(int,input().split()))
+k=int(input())
+print(maxSubSum(a,k))
