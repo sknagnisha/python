@@ -1,0 +1,16 @@
+********ASSIGNMENT-1*************
+#ass1: write a program to print maximum subarray sum
+
+def maxSubSum(a):
+    n=len(a)
+    ps=a[0]
+    s=0
+    for i in range(1,n):
+        s=s+a[i]
+        if s>ps:
+            ps=s
+        if s<0:
+            s=0
+    return ps
+a=list(map(int,input().split()))
+print(maxSubSum(a))
