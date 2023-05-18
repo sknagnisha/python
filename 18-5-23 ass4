@@ -1,0 +1,17 @@
+**************ASSIGNMENT-4****************
+#ass4: write a program to print count of maximum subarray sum is equal to k
+
+def maxSubSum(a,k):
+    n=len(a)
+    ps=a[0]
+    c=0
+    for i in range(0,n):
+       s=0
+       for j in range(i,n):
+           s=s+a[j]
+           if s>k:
+               c=c+1
+    return c
+a=list(map(int,input().split()))
+k=int(input())
+print(maxSubSum(a,k))
