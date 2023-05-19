@@ -1,0 +1,15 @@
+**************ASSIGNMENT-2**************
+#Write a function that reverses a string. 
+The input string is given as an array of 
+characters s.
+
+class Solution(object):
+   def reverseString(self, s):
+        n=len(s)
+        for i in range(0,n//2):
+             s[i],s[-i-1]=s[-i-1],s[i]
+        return s
+        
+        OUTPUT:
+Input: s = ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
