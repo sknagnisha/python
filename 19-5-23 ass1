@@ -1,0 +1,17 @@
+*************ASSIGNMENT-1**************
+#The Fibonacci numbers,
+class Solution(object):
+    def fib(self, n):
+        a=-1
+        b=1
+        for i in range(n+1):
+           c=a+b
+           a=b
+           b=c
+        return c
+        
+        OUTPUT:
+Input: n = 2
+Output: 1
+Explanation: 
+F(2) = F(1) + F(0) = 1 + 0 = 1.
